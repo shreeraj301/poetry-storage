@@ -1,7 +1,5 @@
+import { PoetryCanvas } from "@/components/PoetryCanvas";
+
 export default function Home() {
-  return (
-    <main>
-      <div>Hello world!</div>
-    </main>
-  );
+  return <PoetryCanvas />;
 }
